@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Home</title>
+<title>Login</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.0.min.js"></script>
@@ -50,19 +50,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						        <span class="icon-bar"></span>
 					        </button>
 					        <div class="navbar-brand logo">
-								<a href="index.html"><img src="images/logo1.png" alt=""></a>
+								<a href="index.jsp"><img src="images/logo1.png" alt=""></a>
 							</div>
 					    </div>
 					    <!--/.navbar-header-->
 					 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					        <ul class="nav navbar-nav">
-					        	   <li><a href="index.html">Home</a></li>
+					        	   <li><a href="index.jsp">Home</a></li>
 						             <li class="dropdown">
 						        	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Men <b class="caret"></b></a>
 						            <ul class="dropdown-menu multi-column columns-3">
 							            <div class="row">
 								            <div class="col-sm-4">
-									             <ul class="multi-column-dropdown">
+									              <ul class="multi-column-dropdown">
 										          
 										            <li><a href="product.jsp"">Bags</a></li>
 										           
@@ -101,7 +101,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						            <ul class="dropdown-menu multi-column columns-3">
 							            <div class="row">
 								            <div class="col-sm-4">
-									             <ul class="multi-column-dropdown">
+									            <ul class="multi-column-dropdown">
 										          
 										            <li><a href="product.jsp"">Bags</a></li>
 										           
@@ -140,7 +140,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						            <ul class="dropdown-menu multi-column columns-3">
 							            <div class="row">
 								            <div class="col-sm-4">
-									              <ul class="multi-column-dropdown">
+									           <ul class="multi-column-dropdown">
 										          
 										            <li><a href="product.jsp"">Bags</a></li>
 										           
@@ -208,172 +208,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 </div>
 <!--header end here-->
-<!--banner strat here-->
-<div class="banner">
+<!--log in start here-->
+<div class="login">
 	<div class="container">
-		<div class="banner-main">
-			<div class="col-md-6 banner-left">
-				<a href="single.jsp"><img src="images/ba.png" alt="" class="img-responsive"></a>
-			</div>
-			<div class="col-md-6 banner-right simpleCart_shelfItem">
-				<span class="bann-heart"> </span>
-				<h2>Handbags</h2>
-				<h1>Sed perspiciatis unde</h1>
-				<h5 class="item_price">$200.00</h5>
-				<ul class="bann-small-img">
-					<li><a href="single.jsp"><img src="images/b1.jpg"></a></li>
-					<li><a href="single.jsp"><img src="images/b2.jpg"></a></li>
-				</ul>
-				<h6>Size Charts</h6>
-				<ul class="bann-btns">
-				<li><select class="bann-size">
-					<option value="select your location">Size</option>
-					<option value="saab">Small</option>
-					<option value="fiat">Medium</option>
-					<option value="audi">Large</option>
-				</select>
-				</li>
-				<li><a href="#" class="item_add">Add To Cart</a></li>
-               </ul>
-			</div>
-			<div class="clearfix"> </div>
+		<div class="login-main">
+			  <h1>Login</h1>
+		  <div class="col-md-6 login-left">
+			<h2>Existing User</h2>
+			<form>
+				<input type="text" placeholder="Username" required="">
+				<input type="password" placeholder="Password" required="">
+				<input type="submit" value="Login">
+			</form>
+		  </div>
+		  <div class="col-md-6 login-right">
+		  	 <h3>New User? Create an Account</h3>
+		  	 <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system. and expound the actual teachings of the great.</p>
+		     <a href="signup.html" class="login-btn">Create an Account </a>
+		  </div>
+		  <div class="clearfix"> </div>
 		</div>
 	</div>
 </div>
-<!--banner end here-->
-<!--block-layer2 start here-->
-<div class="blc-layer2">
-	<div class="container">
-		<div class="blc-layer2-main">
-			 <div class="col-md-6 blc-layer2-left">
-			 	  <h3>voluptatem sequi nesciunt.</h3>
-			 	  <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.</p>
-			 </div>
-			 <div class="col-md-6 blc-layer2-right">
-			 	
-			 </div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
-<!--block-layer2 end here-->
-<!--block-layer1 start here-->
-<div class="blc-layer3">
-	<div class="container">
-		<div class="blc-layer3-main">
-			   <div class="col-md-4 blc-layer3-grids1">
-			   	    <h6>Story</h6>
-			   	    <h3>Denouncing pleasure</h3>
-			   	    <p>pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder.</p>
-			         <h6>Benefits</h6>
-			        <ul>
-			        	<li><h4>Temporibus autem quibusdam</h4>
-			        		<h5>At vero eos et accusamus et iusto odio</h5>
-			        	</li>
-			        	<li><h4>These cases are perfectly</h4>
-			        		<h5>voluptatum deleniti atque corrupti quos</h5>
-			        	</li>
-			        </ul>
-			   </div>
-			   <div class="col-md-4 blc-layer3-grids2">
-			   	<a href="single.html"><img src="images/bracelate.png" alt=""></a>
-			   </div>
-			   <div class="col-md-4 blc-layer3-grids-3 simpleCart_shelfItem">
-				 <div class="box-grid">
-				   	<h3><a href="single.jsp">Brand</a></h3>
-				   	<p>Nam libero tempore cum</p>
-				   	<h5>At vero eos et accusamus iusto</h5>
-				   	<a href="single.jsp"><img src="images/w2.png" alt=""></a>
-				   	<div class="box-grid-price">
-				   		<div class="box-grid-price-left">
-				   			<h4>Stock</h4>
-				   		</div>
-				   		<div class="box-grid-price-rit">
-				   			<h4 class="item_price">$250</h4>
-				   		</div>
-				   		<div class="clearfix"> </div>
-				   	</div>
-				   	<ul class="bann-btns">
-						<li class="ys-margin"><select class="bann-size">
-							<option value="saab">Small</option>
-							<option value="fiat">Medium</option>
-							<option value="audi">Large</option>
-						</select>
-						</li>
-						<li><a href="#" class="item_add">Add To Cart</a></li>
-	               </ul>
-				 </div>
-			   </div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
-<!--block-layer1 end here-->
-<!--home-block start here-->
-<div class="home-block">
-	<div class="container">
-		<div class="home-block-main">
-			<div class="col-md-3 home-grid">
-				<div class="home-product-main">
-				   <div class="home-product-top">
-				      <a href="product.jsp"><img src="images/h1.jpg" alt="" class="img-responsive zoom-img"></a>
-				   </div>
-					<div class="home-product-bottom">
-							<h3><a href="single.jsp">Smart Shopping</a></h3>
-							<p>Explore Now</p>						
-					</div>
-					<div class="srch">
-						<span>$200</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3 home-grid">
-				<div class="home-product-main">
-				   <div class="home-product-top">
-				      <a href="product.jsp"><img src="images/h2.jpg" alt="" class="img-responsive zoom-img"></a>
-				   </div>
-					<div class="home-product-bottom">
-							<h3><a href="single.jsp">Smart Shopping</a></h3>
-							<p>Explore Now</p>						
-					</div>
-					<div class="srch">
-						<span>$250</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3 home-grid">
-				<div class="home-product-main">
-				   <div class="home-product-top">
-				      <a href="product.jsp"><img src="images/h3.jpg" alt="" class="img-responsive zoom-img"></a>
-				   </div>
-					<div class="home-product-bottom">
-							<h3><a href="single.jsp">Smart Shopping</a></h3>
-							<p>Explore Now</p>						
-					</div>
-					<div class="srch">
-						<span>$150</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3 home-grid">
-				<div class="home-product-main">
-				   <div class="home-product-top">
-				      <a href="product.jsp"><img src="images/h4.jpg" alt="" class="img-responsive zoom-img"></a>
-				   </div>
-					<div class="home-product-bottom">
-							<h3><a href="single.jsp">Smart Shopping</a></h3>
-							<p>Explore Now</p>						
-					</div>
-					<div class="srch">
-						<span>$200</span>
-					</div>
-				</div>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>	
-<!--home block end here-->
+<!--log in end here-->
 <!--footer strat here-->
 <div class="footer">
 	<div class="container">
@@ -381,24 +238,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="ftr-grids-block">
 				<div class="col-md-3 footer-grid">
 					<ul>
-						<li><a href="product.jsp">Accessories</a></li>
-						<li><a href="product.jsp">Hand bags</a></li>
-						<li><a href="product.jsp">Clothing</a></li>
-						<li><a href="product.jsp">Brands</a></li>
-						<li><a href="product.jsp">Watches</a></li>
+						<li><a href="product.html">Accessories</a></li>
+						<li><a href="product.html">Hand bags</a></li>
+						<li><a href="product.html">Clothing</a></li>
+						<li><a href="product.html">Brands</a></li>
+						<li><a href="product.html">Watches</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 footer-grid">
 					<ul>
-						<li><a href="login.jsp">Your Account</a></li>
-						<li><a href="contact.jsp">Contact Us</a></li>
-						<li><a href="product.jsp">Store Locator</a></li>
-						<li><a href="pressroom.jsp">Press Room</a></li>
+						<li><a href="login.html">Your Account</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="product.html">Store Locator</a></li>
+						<li><a href="pressroom.html">Press Room</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 footer-grid">
 					<ul>
-						<li><a href="terms.jsp">Website Terms</a></li>
+						<li><a href="terms.html">Website Terms</a></li>
 						<li><select class="country">
 										<option value="select your location">Select Country</option>
 										<option value="saab">Australia</option>
